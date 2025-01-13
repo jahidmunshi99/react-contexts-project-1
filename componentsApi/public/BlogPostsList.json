@@ -1,0 +1,171 @@
+[
+    {
+      "id": 1,
+      "title": "The Power of React and Tailwind CSS",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "React and Tailwind CSS are an excellent combination for building modern, responsive web applications. Learn how they work seamlessly together...",
+      "author": "John Doe",
+      "publishDate": "2025-01-10"
+    },
+    {
+      "id": 2,
+      "title": "Understanding JavaScript Closures",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Closures are a fundamental concept in JavaScript that can seem tricky at first. This article simplifies the concept with practical examples...",
+      "author": "Jane Smith",
+      "publishDate": "2025-01-12"
+    },
+    {
+      "id": 3,
+      "title": "10 Tips for Writing Clean Code",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Writing clean code is crucial for maintainability and scalability. Explore ten essential tips that can make your code more readable and effective...",
+      "author": "Alex Johnson",
+      "publishDate": "2025-01-15"
+    },
+    {
+      "id": 4,
+      "title": "Mastering Async/Await in JavaScript",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Async/Await simplifies handling asynchronous code in JavaScript. This guide covers its syntax and best practices to improve your coding workflow...",
+      "author": "Sarah Lee",
+      "publishDate": "2025-01-18"
+    },
+    {
+      "id": 5,
+      "title": "How to Build a REST API with Node.js",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Building a REST API is a fundamental skill for backend developers. Learn how to create one using Node.js and Express in this step-by-step guide...",
+      "author": "Michael Brown",
+      "publishDate": "2025-01-20"
+    },
+    {
+      "id": 6,
+      "title": "Exploring the Benefits of TypeScript",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "TypeScript enhances JavaScript by adding static typing, which improves code quality and reduces bugs. Find out why developers love TypeScript...",
+      "author": "Emily Davis",
+      "publishDate": "2025-01-22"
+    },
+    {
+      "id": 7,
+      "title": "CSS Grid vs. Flexbox: Which One to Use?",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "CSS Grid and Flexbox are powerful layout tools. This article compares their features and helps you decide which one to use for your project...",
+      "author": "Chris Martin",
+      "publishDate": "2025-01-25"
+    },
+    {
+      "id": 8,
+      "title": "Understanding React Hooks: useState and useEffect",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "React hooks like useState and useEffect revolutionized React development. Learn how to use them effectively in this detailed guide...",
+      "author": "Jessica Wilson",
+      "publishDate": "2025-01-28"
+    },
+    {
+      "id": 9,
+      "title": "An Introduction to GraphQL",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "GraphQL is a powerful query language for APIs. This article introduces its core concepts and demonstrates how to build a GraphQL API...",
+      "author": "Daniel Harris",
+      "publishDate": "2025-01-30"
+    },
+    {
+      "id": 10,
+      "title": "Getting Started with Next.js",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Next.js is a React framework that simplifies server-side rendering and routing. Learn how to set up your first project in this beginner-friendly guide...",
+      "author": "Laura Green",
+      "publishDate": "2025-02-02"
+    },
+    {
+      "id": 11,
+      "title": "How to Secure Your Web Application",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Web application security is critical. Discover key practices like authentication, encryption, and input validation to protect your apps...",
+      "author": "Robert Johnson",
+      "publishDate": "2025-02-05"
+    },
+    {
+      "id": 12,
+      "title": "Exploring the JAMstack Architecture",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "JAMstack (JavaScript, APIs, Markup) is a modern architecture for building fast and secure websites. Learn how to get started...",
+      "author": "Amanda Clark",
+      "publishDate": "2025-02-08"
+    },
+    {
+      "id": 13,
+      "title": "The Rise of WebAssembly",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "WebAssembly enables high-performance applications on the web. This article explores its use cases and why it's gaining popularity...",
+      "author": "Thomas Baker",
+      "publishDate": "2025-02-12"
+    },
+    {
+      "id": 14,
+      "title": "A Guide to Responsive Design",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Responsive design ensures your website looks great on all devices. Learn essential techniques and tools for creating responsive layouts...",
+      "author": "Michelle White",
+      "publishDate": "2025-02-15"
+    },
+    {
+      "id": 15,
+      "title": "Building Single Page Applications with Vue.js",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Vue.js is a progressive JavaScript framework. This guide walks you through building a simple single-page application step-by-step...",
+      "author": "Kevin Turner",
+      "publishDate": "2025-02-18"
+    },
+    {
+      "id": 16,
+      "title": "Understanding Redux for State Management",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Redux simplifies state management in complex applications. Learn the core concepts and how to integrate Redux into your React app...",
+      "author": "Emily Adams",
+      "publishDate": "2025-02-21"
+    },
+    {
+      "id": 17,
+      "title": "A Beginner's Guide to Docker",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Docker simplifies application deployment by using containers. Learn the basics of Docker and how to set up your first containerized app...",
+      "author": "Nathan Scott",
+      "publishDate": "2025-02-25"
+    },
+    {
+      "id": 18,
+      "title": "Testing React Applications with Jest",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Jest is a popular testing framework for React. This guide explains how to write unit tests and snapshot tests for your React components...",
+      "author": "Samantha Lewis",
+      "publishDate": "2025-02-28"
+    },
+    {
+      "id": 19,
+      "title": "Optimizing Web Performance",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Web performance optimization is essential for user experience. Discover techniques like lazy loading, image optimization, and more...",
+      "author": "Jason Moore",
+      "publishDate": "2025-03-03"
+    },
+    {
+      "id": 20,
+      "title": "Creating Accessible Websites",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Accessibility ensures your website is usable by everyone. Learn the principles of web accessibility and how to implement them...",
+      "author": "Megan Brown",
+      "publishDate": "2025-03-06"
+    },
+    {
+      "id": 21,
+      "title": "Exploring the Future of AI in Web Development",
+      "image": "https://via.placeholder.com/600x400",
+      "details": "Artificial intelligence is transforming web development. Discover how AI tools are changing design, coding, and optimization...",
+      "author": "Sophia Wilson",
+      "publishDate": "2025-03-10"
+    }
+  ]
+  
