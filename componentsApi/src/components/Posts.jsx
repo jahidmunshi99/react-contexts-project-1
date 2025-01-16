@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import usePosts from '../hooks/usePosts';
-import Blog from '../Pages/Blog';
+import {useNavigate} from 'react-router'
+
 
 const Posts = () => {
     const { posts } = usePosts()
     const  [ showPosts, setShowPosts ]  = useState(9)
+    const navigate = useNavigate();
 
+    const handleReadMore = (title, id) => {
+        navigate(`/blog/post/${title}/${id}`)
+    }
 
     const hanldeLoadMore = () => {
         setShowPosts((prevCount) => prevCount + 3);
@@ -19,7 +24,7 @@ return(
                         <div className="card">
                             <h1 className="text-xl font-bold">{post.title}</h1>
                             <p className="text-gray-700">{post.body}</p>
-                            <button className="bg-black text-white px-4 py-2 rounded-full mt-4">
+                            <button onClick={() => handleReadMore(post.id, post.title )} className="bg-black text-white px-4 py-2 rounded-full mt-4">
                                 Read More..
                             </button>
                         </div>
