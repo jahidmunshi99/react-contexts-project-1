@@ -44,7 +44,7 @@ const LoginForm = () => {
       toast.success("Login successful!")
       setLoading(false);
       // Signed in 
-      navigate('/blog')
+      navigate('/')
     })
     .catch((error) => {
       setLoading(false);

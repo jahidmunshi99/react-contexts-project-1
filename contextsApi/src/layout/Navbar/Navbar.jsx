@@ -1,8 +1,8 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { NavLink, Link, useNavigate } from 'react-router'
+import { NavLink, Link } from 'react-router'
 import "./Navbar.css"
-import { useState } from 'react'
+import useAuth from '../../hooks/useAuth'
 
 
 
@@ -18,16 +18,8 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const navigate = useNavigate();
+  const {isLoggedIn, handleSignOut, handleSignIn} = useAuth()
 
-  const [isLoggedIn, setIsLogIn] = useState(false)
-  const handleSignOut = () => {
-    setIsLogIn(false)
-  }
-  const handleSignIn = () => {
-    navigate('/signin')
-    setIsLogIn(true)
-  }
   return (
     <Disclosure as="nav" className="bg-gray-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -102,6 +94,12 @@ export default function Navbar() {
                     Your Profile
                   </a>
                 </MenuItem>
+                { isLoggedIn && (
+                  <MenuItem>
+                  <Link to="/dashboard" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:outline-none">Dashboard</Link>
+                  </MenuItem>
+                )}
+
                 <MenuItem>
                   <a
                     href="#"
